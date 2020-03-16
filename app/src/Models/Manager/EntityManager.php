@@ -1,16 +1,14 @@
 <?php
 //
-namespace App\Models\ORM\Manager;
+namespace App\Models\Manager;
 //
-
-use Core\Models\ORM\AbstractManager as AbstractManager;
+use Core\Models\Manager\AbstractManager as AbstractManager;
 use Illuminate\Database\Eloquent\Model as Model;
 use App\Models\ORM\Repositories\UserRepository as UserRepository;
 use App\Models\ORM\Repositories\DataStudioRepository as DataStudioRepository;
 use App\Models\ORM\Entities\User as User;
 use App\Models\ORM\Entities\DataStudio as DataStudio;
 use App\Models\ORM\Validators\UserValidator as UserValidator;
-
 //
 class EntityManager extends AbstractManager{
 
